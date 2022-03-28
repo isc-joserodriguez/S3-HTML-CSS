@@ -14,7 +14,88 @@
 }
 
 body {
-    /* Asignamos la fuente */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
     font-family: 'Circular Std Bold';
-    background-color: goldenrod
+}
+
+footer {
+    margin-top: auto;
+    background-color: black;
+    color: white;
+    padding: 60px 300px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 3px 0 15px;
+}
+
+nav ul a {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: #1ed760;
+}
+
+.title {
+    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+#logo {
+    height: 40px;
+}
+
+footer>div {
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    margin-right: 80px;
+}
+
+.socials {
+    display: flex;
+    justify-content: end;
+}
+
+.socials li {
+    margin: 10px;
+}
+
+.others {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.others li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.others,
+.others li a {
+    color: #919496;
+    text-decoration: none;
+    font-size: 12px;
 }
